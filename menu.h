@@ -253,7 +253,7 @@ void choiseMenu(DaySo a,int choise, int n){
                 cout << "nguoi dung hay nhap so n: ";
                 cin >> n;
                 nhapMang(a, n);
-                cout << "so lan xuat hien cua " << x << " ke tu vi tri " << vt << "den cuoi mang la " << demSoLanXuatHienTuVT(a, n, x, vt) << endl;
+                cout << "so lan xuat hien cua " << x << " ke tu vi tri " << vt << " den cuoi mang la " << demSoLanXuatHienTuVT(a, n, x, vt) << endl;
             }
             
             break;
